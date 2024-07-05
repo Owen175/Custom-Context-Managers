@@ -1,3 +1,5 @@
+# __enter__ runs at the start, and __exit__ at the end. 
+
 class TestContextManager:
     def __init__(self):
         pass
